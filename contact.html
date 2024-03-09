@@ -1,63 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>My Resume</title>
-        <link href="./style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <h1 class="name">Tristan Mitchell</h1>
-        <img src="./images/IMG_4194.JPG" alt="photo of Tristan Mitchell" width="400">
-        <h3 id="career-title" class="career title">Web Developer and Programmer</h3>
-        <hr>
+<link href="./style.css" rel="stylesheet">
 
-        <h3 class="about-tristan">About Tristan</h3>
-        <p class="about">Tristan Mitchell is a twenty-seven year old novice web developer and programmer. She has taken courses from <a href="https://www.codecademy.com/">Codecademy</a> and <a href="https://www.udemy.com/">Udemy</a> on Web Development, HTML, Javascript, Coding Foundations, and CSS. In her spare time when she isn't coding or developing websites, she loves to write and is in the process of writing a novel.</p>
-
-        <h3>Education</h3>
-            <p class="education">Tristan earned her Bachelor of Fine Arts (BFA) in Design and Technology from the University of North Georgia in December 2019.</p>
-        
-        <h3>Certificates</h3>
-            <ul class="certificates">
-                <li><a href="https://www.codecademy.com/profiles/trismitch/certificates/9a5bb1fc45b4281af1fffec93b0aaf05">Coding Foundations</a></li>
-                <li><a href="https://www.codecademy.com/profiles/trismitch/certificates/11a686a7fd57b8c214f7f92749388d42">Learn How to Code</a></li>
-                <li><a href="https://www.codecademy.com/profiles/trismitch/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7">Learn HTML</a></li>
-                <li><a href="https://www.codecademy.com/profiles/trismitch/certificates/9a5bb1fc45b4281af1fffec93b0aaf05">Learn CSS</a></li>
-            </ul>
-        
-            <h3 class="work-experience">Work Experience</h3>
-            <h4 class="job">Billing Coordinator (Argos USA): Feb 2023 - Feb 2024</h4>
-                <p class="duties">Duties included:
-                    <ul>
-                        <li>Daily COD and Term Billing</li>
-                        <li>Weekly tie out and discount reports</li>
-                        <li>Completion of cases input by the sales admin teams</li>
-                        <li>Creation of new accounts and tax certificates</li>
-                        <li>Use of SAP and SalesForce</li>
-                    </ul>
-                </p>
-            <h4 class="job">Legal Assistant (RAS Crane and Partners, PLLC): March 2022 - Feb 2023</h4>
-                <p class="duties">Duties included:
-                    <ul>
-                        <li>Daily completion of tasks in Tempo/BKFS</li>
-                        <li>Creation of Substitution of Trustees and Notices of Sales</li>
-                        <li>Creation of bid packages for the sale criers and input of sales results</li>
-                        <li>Answering phones for foreclosures</li>
-                        <li>Weekly cleanup of old files</li>
-                    </ul>
-                </p>
-            
-            <h3 class="skillset">Skills</h3>
-                <ul class="skills">
-                    <li>HTML and CSS</li>
-                    <li>Basics of coding</li>
-                    <li>SalesForce</li>
-                    <li>Microsoft Suite</li>
-                    <li>Organization and attention to detail</li>
-                </ul>
-            <h3 class="contact-me"><a href="contact.html">Contact Me!</a></h3>
-    </body>
-    <footer class="footer">
-        <p class="footer">Copyright © 2024 Tristan Mitchell. All rights reserved.</p>
-    </footer>
-</html>
+<body class="contact-body">
+    
+    <h1 class="contact">Contact Me!</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Telephone</th>
+                <th></th>
+                <th>Email:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>678-910-9791</td>
+                <td></td>
+                <td>thatkins@icloud.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="mailto:thatkins@icloud.com">
+        <label for="email">EMAIL ME</label>
+        <br>
+        <label for="Name:">Name</label>
+        <br>
+            <input type="text" name="text-field">
+        <br>
+        <label for="Reason for Contact">Subject</label>
+        <br>
+            <input type="text" name="text-field-2">
+        <br>
+        <label for="Message">Message</label>
+        <br>
+        <textarea id="email message" rows="20">
+        </textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
